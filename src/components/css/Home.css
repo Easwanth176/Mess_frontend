@@ -1,0 +1,249 @@
+.hname
+{
+    color: #fbfafa;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:  #464646;
+}
+
+h3
+{
+    color: #fbfafa;
+
+}
+
+.meal-approved .body p {
+    display: flex;
+    justify-content: space-between;
+    color: #fbfafa;
+}
+.meal-approved {
+width: 94%;
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 3%;
+margin-right: 3%;
+padding: 20px;
+border: 1px solid #f4f2f2;
+border-radius: 23px;
+}
+
+.meal-approved .header {
+text-align: center;
+}
+
+.meal-approved .header h1 {
+font-size: 24px;
+color: #fbfafa;
+
+}
+
+.meal-approved .header p {
+font-size: 16px;
+color: #fbfafa;
+}
+
+.meal-approved .body {
+margin-top: 20px;
+
+}
+
+.meal-approved .body p {
+font-size: 14px;
+display: flex;
+justify-content: space-between;
+color: #fbfafa;
+
+}
+
+.meal-approved .footer {
+text-align: center;
+margin-top: 20px;
+}
+
+
+body
+{
+    background-color: #131313;
+}
+.meal-approved h3
+{
+    color: rgb(73, 150, 73); 
+    text-align: center;
+}
+
+.meal-approved .sqaure
+{
+    background-color: #f4f2f2;
+    width: 112%;
+    margin-left: -20px;
+    padding: 17%;
+    padding-left: 40%;
+
+
+}
+
+/* last paart */
+.meal-approved .body .info {
+    display: flex;
+    flex-direction: column;
+    color: #fbfafa;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .meal-approved .body .info p {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fbfafa;
+  }
+  
+  .meal-approved .body .info .verification-code {
+    border: 1px solid #f4f2f2;
+    border-radius: 5px;
+    
+    padding: 10px;
+  }
+  
+  .hr-line {
+    border-top: 1px solid #f4f2f2;
+    margin: 10px 0;
+  }
+  
+  .meal-approved{
+    width: 94%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px;
+    border: 1px solid #f4f2f2;
+    background-color:  #464646;
+  }
+
+  .meal-approved .approved-icon {
+    width: 100px; /* Increase the width and height to make it larger */
+    height: 100px;
+    background-color: #4CAF50;   
+     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    animation: tickAnimation 1s ease infinite;
+  }
+  
+  
+  @keyframes tickAnimation {
+    0% {
+      transform: scale(0.5);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .meal-approved .approved-icon::before {
+    content: '';
+    position: absolute;
+    width: 20px; 
+    height: 40px; 
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    transform: rotate(45deg);
+  }
+  
+  .image-circle {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+    margin-right: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Add styles for info alignment */
+  .info {
+    
+    display: inline-block;
+    vertical-align: top;
+    flex: 1;
+    text-align: left;
+  }
+
+  .header {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .image-circle {
+    width: 140px; /* Adjust the size as needed */
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden; /* Clip the image within the circle */
+    margin-right: 20px; /* Adjust the spacing between the image and info */
+    margin-top: -50px;
+  }
+  
+  .image-circle img {
+    width: 100%; /* Make the image fill the circle */
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the circle */
+  }
+
+  .dark {
+    background-color: #131313;
+    color: #fbfafa;
+  }
+  
+
+  
+  .dark-mode-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #fbfafa;
+    cursor: pointer;
+  }
+  p, h1, h2, h4, h5, h6 {
+    text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white;
+  }
+
+  
+h2
+{
+  font-size: 30px;
+  color: #fbfafa;
+}
+
+

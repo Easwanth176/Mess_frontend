@@ -1,0 +1,67 @@
+/* CSS for Form.js */
+
+/* Center align the form */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(198, 198, 240);
+  border-radius: 5px;
+}
+
+h1
+{
+  text-align: center;
+  color: rgb(1, 7, 1);
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+/* Style error messages */
+.alert {
+  margin-top: 10px;
+}
+
+/* Style the file input for user image */
+.form-control-file {
+  border: 1px solid #6695c4;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(198, 198, 240);
+}
+/* Style buttons */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Additional Styles for Responsive Layout */
+/* On extra small devices (phones), make the form full-width */
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* On small devices (tablets), reduce the form width */
+@media (min-width: 576px) {
+  .container {
+    max-width: 80%;
+  }
+}
